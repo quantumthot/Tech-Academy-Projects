@@ -17,3 +17,47 @@ input[type=text] {
     border-radius: 5px;
 }
 
+body {
+    background-color: rgb(252, 152, 247);
+}
+
+h3 {
+    font-size: 21pt;
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /*This ensures that the image cannot
+    render outside of their container
+    without forcing any scrollbars*/
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: left;
+}
+
+.menu-container {
+    max-height: 340px;
+    margin: 0% auto;
+    content: " ";
+    /* top: 0;
+    left: 0; */
+    /* position absolute; */ /* to the top edge of the screen */
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    /*background-color rgba(255, 255, 255, 0.5);*/
+}
+
+.menu {
+    color: rgb(119, 4, 196);
+    font: bold 12px/18px sans-serif;
+    text-align: center;
+    display: inline;
+    margin: 0% auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
