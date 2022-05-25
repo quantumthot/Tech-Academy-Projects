@@ -1,10 +1,4 @@
 
-#myDIV {
-    height:300px;
-    background-color:#FFFFFF;
-    align-items: center;
-}
-
 #myImg { 
     filter: invert(100%);
 }
@@ -16,17 +10,21 @@ img {
     border: 14px solid rgb(42, 214, 57);
     border-radius: 15px 50px 30px;
 }
+
 footer {
-    position: fixed;
-    bottom: 0;
+
+    bottom: 0px;
     text-align: center;
-    padding: 3px;
+    padding: 5px;
     background-color: rgb(104, 23, 84);
     color: rgb(12, 214, 96);
     font-weight: bold; 
     max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
-    
-    h1 {
-        text-align: center;
-    }
+
+table, th, td {
+    border:5px dashed rgba(59, 37, 189, 0.692);
+    text-align: center;
+}
