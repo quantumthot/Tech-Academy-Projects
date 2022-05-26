@@ -14,7 +14,7 @@ img {
 }
 
 #footer {
-    position: fixed;
+    position: static;
     bottom: 0px;
     width: 100%;
     padding: 0px;
@@ -29,6 +29,8 @@ img {
 
 }
 
+
+
 #footer p {
     text-align: center;
     text-shadow: 2pt 2pt 2pt rgb(0, 0, 0);
@@ -37,17 +39,22 @@ img {
 }
 
 table, th, td {
-    border:5px dashed rgba(59, 37, 189, 0.692);
+    border:5px dashed rgb(180, 226, 226);
     text-align: center;
     padding: 1px;
     margin-top: 50px;
+    height: 2cm;
+    font-size: 12pt;
+    font-weight: bolder;
 }
 
 /* Container holding the image and the text */
 .container {
     position: relative;
     text-align: center;
-    color: white;
+ 
+    font-family: 'Times New Roman', Times, serif;
+
   }
   
   /* Bottom left text */
@@ -62,6 +69,7 @@ table, th, td {
     position: absolute;
     top: 8px;
     left: 16px;
+    font-size: 120pt;
   }
   
   /* Top right text */
@@ -81,25 +89,120 @@ table, th, td {
   /* Centered text */
   .centered {
     position: absolute;
-    top: 50%;
+    font-size: 21pt;
     left: 50%;
+    bottom: 0%;
     transform: translate(-50%, -50%);
+    color: blueviolet;
+    font-weight: bolder;
+    text-shadow: .5pt .5pt .5pt rgb(0, 0, 0);
+
   }
 
-  /* Centered text */
-  .centered {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    transform: translate(-50%, -50%);
-  }
+
 
   h1 {
       text-align: center;
       color: blueviolet;
-      text-shadow: 2pt 2pt 2pt rgb(0, 0, 0);
+      text-shadow: 2pt 2pt 2pt rgb(43, 13, 41);
+      font-size: 32pt;
+      margin-top: 1.5cm;
   }
 
   body {
       background-color: rgb(58, 80, 206);
+  }
+
+  .wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /*This ensures that the image cannot
+    render outside of their container
+    without forcing any scrollbars*/
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.menu-container {
+    max-height: 32pt;
+    margin: 0% auto;
+    content: " ";
+    /* top: 0;
+    left: 0; */
+    /* position absolute; */ /* to the top edge of the screen */
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    /*background-color rgba(255, 255, 255, 0.5);*/
+}
+
+.menu {
+    color: rgb(119, 4, 196);
+    font: bold 12px/18px sans-serif;
+    text-align: center;
+    display: inline;
+    margin: 0% auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: rgb(51, 201, 37);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: rgb(228, 176, 230);
+    color: rgb(98, 17, 105);
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+  
+  .row {
+    display: flex;
+    background-color: aqua;
+    height: 50pt;
+    margin-top: 2cm;
+
+  }
+  
+  .column {
+    flex: 50%;
+    font-size: 32pt;
+    color: blanchedalmond;
+  }
+
+  h2 {
+      text-align: center;
+  }
+
+  h2:hover {
+    background-color: yellow;
+    text-align: center;
+    font-size: 32pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: aquamarine;
   }
