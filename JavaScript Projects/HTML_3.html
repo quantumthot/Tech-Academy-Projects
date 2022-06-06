@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <title>HTML Data attributes</title>  
+        
+        <link rel = "stylesheet" type = "text/css" href = "CSS/CSS_1.css">
+    </head>
+    
+    <body>
+
+
+
+            <!-- DATA ATTRIBUTE ordered list-->
+            <ol>
+                <li data-family_relation = "father">Mark</li>
+                <li data-family_relation = "mother">Kelly</li>
+                <li data-family_relation = "sister">Maxine</li>
+            </ol>
+
+            <!-- Interactivity -->
+            <h1>Characters</h1>
+            <h3>Click on a universe to see a character!</h3>
+
+            <ul>
+                <li onclick="displayType(this)" id="DC"
+                    data-character-type="Wonder Woman">DC</li>
+                <li onclick="displayType(this)" id="Star Wars"
+                    data-character-type="R2D2">Star Wars</li>
+                <li onclick="displayType(this)" id="Marvel"
+                    data-character-type="Gamore">Marvel</li>
+                <li onclick="displayType(this)" id="Star Trek"
+                    data-character-type="Worf">Star Trek</li>
+            </ul>
+
+
+
+
+
+
+
+
+             <script src="JavaScript/JavaScript_3.js" defer></script>
+    </body>
+</html>
