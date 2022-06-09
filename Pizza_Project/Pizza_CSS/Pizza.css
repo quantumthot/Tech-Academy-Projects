@@ -1,0 +1,89 @@
+#menuBG {
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+#frmMenu {
+    width: 400px;
+    height: 200px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.center {
+	width:200px;
+	height:200px;
+	float:left;
+	}
+
+.right {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart {
+    top: 0; margin: 0px auto ;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height: 40px;
+}
+
+body {
+    background-color: brown;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(221, 169, 14);
+    text-shadow: 1px 3px 2px red;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(221, 169, 14);
+    text-shadow: 1px 3px 2px red;
+    font-size: 24pt;
+
+}
+
+input {
+    color: rgb(0, 0, 0);
+    background-color: rgba(220, 210, 19, 0.447);
+    font-size: 12pt;
+    text-align: center;
+}
+
+text {
+    color: yellow;
+}
+
+div {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(221, 169, 14);
+    text-shadow: 1px 3px 2px red;
+}
